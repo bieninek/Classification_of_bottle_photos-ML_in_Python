@@ -109,7 +109,7 @@ Categorical Crossentropy compares the true labels (classes) of the input data wi
 |     19       |     0,948353     |     0,9509      |     0,943321    |     0,925397    |
 |     20       |     0,954477     |     0,952188    |     0,945191    |     0,916667    |
 
-Based on the data in the table, you can create line charts that show changes in the values of two metrics: precision and accuracy.
+Based on the data in the table, you can create line charts that show changes in the values of two metrics: precision and accuracy.  
 ![](/image/graph1.jpg )  
 ![](/image/graph2.jpg )  
 ### Why were precision and accuracy values selected for analysis?
@@ -117,7 +117,7 @@ Precision is one of the basic metrics used in machine learning to assess the qua
 In turn, classification is performed to obtain information about what is in the graphic. Therefore, to see how satisfactory the result is, you can use accuracy, which is one of the most frequently used metrics in machine learning to evaluate the effectiveness of a classification model. It measures the percentage of correctly classified cases out of all cases. Accuracy is an intuitive metric for evaluating a model because it measures how well the model does at classifying the data. The higher the accuracy value, the better the model performs.  
 However, keep in mind that accuracy may not be a dangerous metric in some situations, especially when dealing with unbalanced class problems. If the data is unbalanced and one class dominates the others, the model can achieve high accuracy by predicting only the dominant class. In such cases, other metrics such as precision, sensitivity (recall) or F1-score may be more appropriate to assess the performance of the model. It is also worth noting that accuracy does not take into account class-specific misprediction information. It may happen that the model achieves high accuracy but makes significant errors for specific classes. Therefore, it is worth analyzing other metrics to get a more complete picture of the classification model's performance.  
 ### Determine whether the results are satisfactory with justification
-The results obtained and presented above are quite promising, so we were tempted to try it on our own collection of photos. We tested the script on a pseudo-randomly selected ten out of 29 photos. Each photo contains one of three beer bottles: a green one without a label, a brown bottle with a traditional German shape and a beer bottle with a Krusovice brewery label. The results are as follows:
+The results obtained and presented above are quite promising, so we were tempted to try it on our own collection of photos. We tested the script on a pseudo-randomly selected ten out of 29 photos. Each photo contains one of three beer bottles: a green one without a label, a brown bottle with a traditional German shape and a beer bottle with a Krusovice brewery label. The results are as follows:  
 ![](/image/demo1.jpg )  
 ![](/image/demo2.jpg )  
 According to the script, the photos include:
